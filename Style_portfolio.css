@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(31, 31, 31);
+    padding: 0;
+    margin: auto;
+}
+.header_container{
+    width: 100%;
+    color: rgba(0, 0, 0, 0.336);
+    display: flex;
+    justify-content: space-between;
+}
+.header_container .Logo img{
+    width: 50px;
+}
+.header_container .Logo {
+    justify-content: left;
+    width: 10%;
+}
+.header_container .menu_bar{
+    width: 50%;
+}
+.header_container .menu_bar ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: right;
+    list-style-type: none;
+}
+.header_container .menu_bar li{
+    display: inline;
+    font-family:unset;
+}
+.header_container .menu_bar li a{
+    color: white;
+}
+.content_container{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content_container .content_picture img{
+    width: 800px;
+}
+.content_container .content_name{
+    margin-right: 200px;
+}
+.content_container .content_name h1 ,.content_name h2 {
+    font-size: 50px;
+    color: whitesmoke;
+}
+.content_container .content_name h2 {
+    font-size: 50px;
+    color: whitesmoke;
+}
+.content_name .block{
+    background: rgb(255, 179, 64);
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+.content_name .block p{
+    padding-top: 4px;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.content_personal{
+    display: flex;
+    align-items: center;
+}
+.content_personal .personal{
+    margin-top: 75px;
+    width: 50%;
+    text-align: center;
+}
+.content_personal .personal h1,.personal  h2, .personal h3{
+    color: whitesmoke;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.content_personal .details h1{
+    color: whitesmoke;
+    margin-top: 100px;
+    font-size: 15px;
+}
+.content_personal .details p{
+    color: whitesmoke;
+    font-size: 15px;
+    padding-top: 55px;
+}
+footer {
+    height: 50px;
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0, 0.219);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer header{
+    font-size: 20px;
+    margin-left: -80px;
+    color: whitesmoke;
+}
+.phone_number ,.email,.facebook a {
+    color: whitesmoke;
+}
+
+.phone_number img{
+    width: 20px;
+}
+.email img{
+    width: 20px;
+}
+.facebook img{
+    width: 20px;
+}
